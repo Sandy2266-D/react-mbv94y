@@ -1,7 +1,6 @@
 import React from 'react';
 class Post extends React.Component {
-  render()
-   {
+  render() {
     console.log(this.props);
     return (
       <div>
@@ -11,7 +10,7 @@ class Post extends React.Component {
   }
 }
 
-// export default Post;
+export default Post;
 
 // import React from 'react';
 // import { useHistory, useLocation, useParams } from 'react-router-dom';
